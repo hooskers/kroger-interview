@@ -1,0 +1,26 @@
+{
+  "name": "parcel-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development parcel index.html",
+    "build": "cross-env NODE_ENV=production parcel build index.html --no-minify --public-url"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.3",
+    "@emotion/core": "^10.0.10",
+    "@emotion/css": "^10.0.9",
+    "axios": "^0.18.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-preset-react-app": "^7.0.2",
+    "cross-env": "^5.2.0",
+    "parcel-bundler": "^1.12.3"
+  }
+}
